@@ -1,6 +1,18 @@
+## Download
+
+You can download the version you need here:
+
+[iOS system symbol file(7.0.3-9.2)](https://drive.google.com/drive/folders/0B-0LZDbSzubRaUdMdTJQc1ZzMUU?usp=sharing)
+
+[iOS system symbol file(9.2.1-10.2)](https://drive.google.com/drive/folders/0B5oBYvBG2NS7aDVTR1JzX2JXaFE?usp=sharing)
+
+If you're in China, check here:
+
+Baidu Drive: [https://pan.baidu.com/s/1nvfi4g5](https://pan.baidu.com/s/1nvfi4g5) sharing code: `79m8`
+
 ##Symbols list
 
-There are 49 versions from `7.0 (11A465)` to `10.2 (14C92)`. I got 39 of them.
+There are 49 versions from `7.0 (11A465)` to `10.2 (14C92)`, i got 39 of them. (if you count OS version with CPU architecture, it's 86, i got 56 of them).
 
 Here is the list of symbols from `7.0`to`10.2`, with their CPU architecture version I've got.
 
@@ -16,16 +28,16 @@ I will update the list if i get new symbol files.
 10.0.3 (14A551)						|arm64,armv7s
 10.0.2 (14A456)						|arm64,armv7s
 10.0.1 (14A403)						|arm64,armv7s
-**10.0(14A346)iPhone 7和7s独占**	|**none**
+**10.0(14A346)**						|**none**
 9.3.5 (13G36)							|arm64,armv7s,armv7
 9.3.4 (13G35)							|arm64,armv7s
 9.3.3 (13G34)							|arm64,armv7s,armv7
-**9.3.2(13F72)iPad Pro 9.7寸独占**	|**none**
+**9.3.2(13F72)**						|**none**
 9.3.2 (13F69)							|arm64,armv7s,armv7
 9.3.1 (13E238)						|arm64,armv7s,armv7
-**9.3(13E237)5s及以下机型独占**		|**none**
-**9.3(13E236)iPad2独占**			|**none**
-**9.3(13E234)6s独占**				|**none**
+**9.3(13E237)**						|**none**
+**9.3(13E236)**						|**none**
+**9.3(13E234)**						|**none**
 9.3 (13E233)							|arm64,armv7s
 9.2.1 (13D20)							|arm64,armv7s
 9.2.1 (13D15)							|arm64,armv7s,armv7
@@ -36,8 +48,8 @@ I will update the list if i get new symbol files.
 9.0 (13A344)							|arm64,armv7s,armv7
 8.4.1 (12H321)						|arm64,armv7s,armv7
 8.4 (12H143)							|arm64,armv7s,armv7
-8.3 (12F70) iPhone独占				|arm64,armv7s
-8.3 (12F69) iPad独占					|arm64,armv7s,armv7
+8.3 (12F70)							|arm64,armv7s
+8.3 (12F69)							|arm64,armv7s,armv7
 8.2 (12D508)							|arm64,armv7s
 8.1.3 (12B466)						|arm64,armv7s
 8.1.2 (12B440)						|arm64,armv7s,armv7
@@ -59,6 +71,8 @@ I will update the list if i get new symbol files.
 **7.0(11A465)**						|**none**
 
 ##Missing Symbols
+
+If you want to share a missing symbols, just append download address in `description` section.
 
 	Missing OS	|Missing CPU version|	description
 ----------------	|-------------------|----------------
