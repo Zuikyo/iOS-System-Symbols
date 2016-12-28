@@ -54,7 +54,7 @@ Thread 0 Crashed:
 13  MyApp                           0x0000000100016e54 main (main.m:15)
 14  libdyld.dylib                   0x000000018bc885b8 start + 4
 ```
-We can make out that the problem was caused by `UISearchController`'s`delegate`. It's`assign`.
+We can make out that the problem was caused by `UISearchDisplayController`'s`delegate`. It's`assign`. This crash happened when tap search bar while poping the viewController.
 
 ##The problem of symbolicating system frameworks
 
