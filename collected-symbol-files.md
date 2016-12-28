@@ -12,7 +12,7 @@ Baidu Drive: [https://pan.baidu.com/s/1nvfi4g5](https://pan.baidu.com/s/1nvfi4g5
 
 ##Symbols list
 
-There are 50 versions from `7.0 (11A465)` to `10.2 (14C92)`, i got 42 of them. (if you count OS version with CPU architecture, it's 88, i got 58 of them).
+There are 50 versions from `7.0 (11A465)` to `10.2 (14C92)`, i got 42 of them. (if you count OS version with CPU architecture, it's 88, i got 63 of them).
 
 Here is the list of symbols from `7.0`to`10.2`, with their CPU architecture version I've got.
 
@@ -92,7 +92,6 @@ If you want to share a missing symbols, just move the OS version and CPU version
 8.1 (12B411) 		|arm64,armv7s,armv7	|iPhone-only
 8.1 (12B410)		|armv7					|
 8.0.1(12A402)		|arm64,armv7s,armv7	|`8.0.1`was pulled soon after released.Because it has serious bugs
-8.0 (12A366)		|armv7					|
 7.1.2 (11D257)	|arm64,armv7s			|
 7.0.6 (11B651)	|armv7					|
 7.0.4 (11B554a)	|armv7					|
