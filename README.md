@@ -61,7 +61,8 @@ We can make out that the problem was caused by `UISearchDisplayController`'s`del
 You may find out that you can't always symbolicate those system code. There're several problems:
 
 * If you want to symbolicate system frameworks in your crash report, you need the corresponding system symbols, matching the OS Version and CPU architecture.
-* Those system symbols can only be gained from physical iOS devices. Apple never  offer a website to download these symbols.
+* Most system symbols can only be gained from physical iOS devices. Apple never  offer a website to download these symbols.
+* You can download old versions of Xcode and pull out the SDK image you need. Usually the symbols are part of the latest Xcode release, but Apple doesn't always provide Xcode updates when an iOS version only contains bug-fixes but no API changes. And since Apple replace system framework with `tbd` files after Xcode7, this trick doesn't work any more. Read this for more details: [Xcode software image for user iOS in order to symbolicate iOS calls](http://stackoverflow.com/questions/14941773/xcode-software-image-for-user-ios-in-order-to-symbolicate-ios-calls), [Missing iOS symbols at “~/Library/Developer/Xcode/iOS DeviceSupport”](http://stackoverflow.com/a/28408052/6380485).
 
 When you first connect a new iOS device to Xcode, Xcode will show a loading message: `Processing symbol files`. It's copying system symbol files from device to your Mac's path: `~/Library/Developer/Xcode/iOS DeviceSupport`.
 
@@ -69,16 +70,16 @@ That means you need a corresponding device if you want to symbolicate a crash re
 
 That's the meaning of this repository, to share these system symbols.
 
-##How to use
+## How to use
 
 1. When you need to symbolicate a crash report, check the `Code Type` and `OS Version` section. Such as:`Code Type:       ARM-64`
 `OS Version:      iOS 10.2 (14C82)`. That means you need `arm64`version symbols of `10.2 (14C82)`system.
 
 2. Find the package in my sharing folder and extract it to `~/Library/Developer/Xcode/iOS DeviceSupport`. (Check the file's name and path, it should be`~/Library/Developer/Xcode/iOS DeviceSupport/10.2 (14C82)/Symbols`).
 
-3. Use Xcode's`symbolicatecrash` tool to symbolicate your crash report. This tool will search system symbols in the`iOS DeviceSupport`path automatically. Read this to learn how to use`symbolicatecrash`: [How to symbolicate crashes in Xcode 7.3?](http://stackoverflow.com/questions/36189121/how-to-symbolicate-crashes-in-xcode-7-3).
+3. Use Xcode's`symbolicatecrash` tool to symbolicate your crash report. This tool will search system symbols in the`iOS DeviceSupport`path automatically. Read this to learn how to use`symbolicatecrash`: [Symbolicating an iOS Crash Report](https://www.apteligent.com/developer-resources/symbolicating-an-ios-crash-report/?partner_code=GDC_so_symbolicateios).
 
-##Missing symbols
+## Missing symbols
 
 I still miss some CPU's symbols, if you have any of them, please share.
 
