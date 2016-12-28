@@ -1,11 +1,11 @@
 # iOS-System-Symbols
-Share iOS System Symbol files copied from 'iOS DeviceSupport' folder.Useful for symbolicating iOS crash log.
+Share iOS system symbol files copied from 'iOS DeviceSupport' folder. Useful for symbolicating iOS crash log.
 
 The download address is in [collected-symbol-files.md](https://github.com/Zuikyo/iOS-System-Symbols/blob/master/collected-symbol-files.md).
 
 When I get new symbol file, i will add it into the google drive sharing folder, and update the [collected-symbol-files.md](https://github.com/Zuikyo/iOS-System-Symbols/blob/master/collected-symbol-files.md).You can follow this repository to get the latest update.
 
-##What's the use of system symbol files
+## What's the use of system symbol files
 
 It's for symbolicating those system frameworks in your iOS crash report.
 
@@ -33,7 +33,7 @@ Thread 0 Crashed:
 
 The callstack doesn't catch your app's code, it only has code from system framework. So you need to symbolicate these system code.
 
-Here is the symbolicated report:
+Here is the symbolicated report, those`<redacted>` were changed into specific method name:
 
 ```
 Thread 0 name:  Dispatch queue: com.apple.main-thread
@@ -63,7 +63,7 @@ You may find out that you can't always symbolicate those system code. There're s
 * If you want to symbolicate system frameworks in your crash report, you need the corresponding system symbols, matching the OS Version and CPU architecture.
 * Those system symbols can only be gained from physical iOS devices. Apple never  offer a website to download these symbols.
 
-When you first connect a new iOS device to Xcode, Xcode will show a loading message: `Processing symbol files`. It's copying system symbol files from device to `~/Library/Developer/Xcode/iOS DeviceSupport`.
+When you first connect a new iOS device to Xcode, Xcode will show a loading message: `Processing symbol files`. It's copying system symbol files from device to your Mac's path: `~/Library/Developer/Xcode/iOS DeviceSupport`.
 
 That means you need a corresponding device if you want to symbolicate a crash report. There are 86 versions from `7.0 (11A465)` to `10.2 (14C92)`(most OS version contains three different type:`arm64`,`armv7s`,`armv7`. A`arm64`device contains both`arm64`and`armv7s`). That's obviously very difficult to collect them all.
 
@@ -71,19 +71,12 @@ That's the meaning of this repository, to share these system symbols.
 
 ##How to use
 
-1. When you need to symbolicate a crash report, check the `Code Type` and `OS Version` section. Such as:
-
-```
-Code Type:       ARM-64
-
-OS Version:      iOS 10.2 (14C82)
-```
-
-That means you need `arm64`version symbols of `10.2 (14C82)`system. 
+1. When you need to symbolicate a crash report, check the `Code Type` and `OS Version` section. Such as:`Code Type:       ARM-64`
+`OS Version:      iOS 10.2 (14C82)`. That means you need `arm64`version symbols of `10.2 (14C82)`system.
 
 2. Find the package in my sharing folder and extract it to `~/Library/Developer/Xcode/iOS DeviceSupport`. (Check the file's name and path, it should be`~/Library/Developer/Xcode/iOS DeviceSupport/10.2 (14C82)/Symbols`).
 
-3. Use Xcode's`symbolicatecrash` tool to symbolicate your crash report. This tool will search system symbols in the`iOS DeviceSupport`path automatically.
+3. Use Xcode's`symbolicatecrash` tool to symbolicate your crash report. This tool will search system symbols in the`iOS DeviceSupport`path automatically. Read this to learn how to use`symbolicatecrash`: [How to symbolicate crashes in Xcode 7.3?](http://stackoverflow.com/questions/36189121/how-to-symbolicate-crashes-in-xcode-7-3).
 
 ##Missing symbols
 
@@ -103,7 +96,7 @@ If you miss one, that means you don't have that CPU version's symbols.
 
 If you have a device in the missing list, you may need to merge it's symbol files before sharing.
 
-Xcode merges different CPU's symbol files to same folder. If you already have a `arm64` version's symbol file(such as `10.2 (14C82)`), when you connect a`armv7`device, Xcode will merge `armv7` version symbol files to `10.2 (14C82)` folder too.
+Xcode merges different CPU's symbol files to same folder. For example, if you already have a `arm64` version's symbol file in `iOS DeviceSupport` folder (such as `10.2 (14C82)`), when you connect a`armv7`device, Xcode will merge `armv7` version symbol files to `10.2 (14C82)` folder too.
 
 So you need to download other CPU version's symbol files in my sharing folder(if it exists), extract it to `~/Library/Developer/Xcode/iOS DeviceSupport`. Then connect your device, let Xcode merge those symbol files. 
 

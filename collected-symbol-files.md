@@ -53,10 +53,10 @@ I will update the list if i get new symbol files.
 8.2 (12D508)							|arm64,armv7s
 8.1.3 (12B466)						|arm64,armv7s
 8.1.2 (12B440)						|arm64,armv7s,armv7
-8.1.1 (12B436)iPhone6以上独占		|arm64,armv7s
+8.1.1 (12B436)						|arm64,armv7s
 8.1.1 (12B435)						|armv7s
-**8.1 (12B411) iPhone独占**			|**none**
-8.1 (12B410) iPad独占				|arm64,armv7s
+**8.1 (12B411)**						|**none**
+8.1 (12B410)							|arm64,armv7s
 8.0.2 (12A405)						|arm64,armv7s,armv7
 **8.0.1(12A402)**					|**none**
 8.0 (12A366)							|arm64,armv7s
