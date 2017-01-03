@@ -55,13 +55,13 @@ I will update the list if i get new symbol files.
 8.2 (12D508)			|arm64,armv7s,armv7	|
 8.1.3 (12B466)		|arm64,armv7s,armv7	|
 8.1.2 (12B440)		|arm64,armv7s,armv7	|
-8.1.1 (12B436)		|arm64,armv7s			|6s and newer devices only
+8.1.1 (12B436)		|arm64,armv7s			|iPhone 6 and newer devices only
 8.1.1 (12B435)		|armv7s,armv7			|5s and older devices only
 8.1 (12B411)			|arm64,armv7s,armv7	|iPhone-only
 8.1 (12B410)			|arm64,armv7s,armv7	|iPad-only
 8.0.2 (12A405)		|arm64,armv7s,armv7	|
 8.0.1(12A402)			|armv7s,armv7			|`8.0.1`was pulled soon after released.Because it has serious bugs
-8.0 (12A366)			|arm64,armv7s			|6s-only
+8.0 (12A366)			|arm64,armv7s			|6 Plus-only
 8.0 (12A365)			|arm64,armv7s,armv7	|
 7.1.2 (11D257)		|armv7s,armv7			|
 7.1.1 (11D201)		|arm64,armv7s,armv7	|
