@@ -66,7 +66,7 @@ You may find out that you can't always symbolicate those system code. There're s
 
 When you first connect a new iOS device to Xcode, Xcode will show a loading message: `Processing symbol files`. It's copying system symbol files from device to your Mac's path: `~/Library/Developer/Xcode/iOS DeviceSupport`.
 
-That means you need a corresponding device if you want to symbolicate a crash report. There are 86 versions from `7.0 (11A465)` to `10.2 (14C92)`(most OS version contains three different type:`arm64`,`armv7s`,`armv7`. A`arm64`device contains both`arm64`and`armv7s`). That's obviously very difficult to collect them all.
+That means you need a corresponding device if you want to symbolicate a crash report. There are 132 versions from `7.0 (11A465)` to `10.2.1 (14D27)`(most OS version contains three different type:`arm64`,`armv7s`,`armv7`. A`arm64`device contains both`arm64`and`armv7s`). That's obviously very difficult to collect them all.
 
 That's the meaning of this repository, to share these system symbols.
 
