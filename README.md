@@ -56,7 +56,7 @@ Thread 0 Crashed:
 ```
 We can make out that the problem was caused by `UISearchDisplayController`'s`delegate`. It's`assign`. This crash happened when tap search bar while poping the viewController.
 
-##The problem of symbolicating system frameworks
+## The problem of symbolicating system frameworks
 
 You may find out that you can't always symbolicate those system code. There're several problems:
 

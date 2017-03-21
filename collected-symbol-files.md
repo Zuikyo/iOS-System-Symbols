@@ -12,7 +12,7 @@ Baidu Drive: [https://pan.baidu.com/s/1mibhDyg](https://pan.baidu.com/s/1mibhDyg
 
 I get those `dyld_shared_cache_xxxx` files in `Symbols/System/Library/Caches/com.apple.dyld` out to reduce the symbol files's size. You don't need these big files for symbolicating. It's only used when debugging with a device. If you need them, download those `xxxx-Caches` files.
 
-##Symbols list
+## Symbols list
 
 There are 51 versions from `7.0 (11A465)` to `10.2.1 (14D27)`(if you count OS version with CPU architecture, it's 132).
 
@@ -74,7 +74,7 @@ I will update the list if i get new symbol files.
 7.0.1(11A470a)		|armv7s				|5s and 5c only
 7.0(11A465)			|arm64,armv7s,armv7	|
 
-##Missing Symbols
+## Missing Symbols
 
 If you want to share a missing symbols, just move the OS version and CPU version you added in this missing list to collected symbols list above, and append download address in `description` section.
 
