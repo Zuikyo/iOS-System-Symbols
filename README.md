@@ -1,5 +1,5 @@
 # iOS-System-Symbols
-Share iOS system symbol files copied from 'iOS DeviceSupport' folder. Useful for symbolicating iOS crash log.
+Share iOS system symbol files copied from 'iOS DeviceSupport' folder. Useful for symbolicating iOS crash report.
 
 The download address is in [collected-symbol-files.md](https://github.com/Zuikyo/iOS-System-Symbols/blob/master/collected-symbol-files.md).
 
