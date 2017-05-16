@@ -14,9 +14,9 @@ I get those `dyld_shared_cache_xxxx` files in `Symbols/System/Library/Caches/com
 
 ## Symbols list
 
-There are 51 versions from `7.0 (11A465)` to `10.2.1 (14D27)`(if you count OS version with CPU architecture, it's 132).
+There are 55 versions from `7.0 (11A465)` to `10.3.2 (14F89)`(if you count OS version with CPU architecture, it's 138).
 
-Here is the list of symbols from `7.0`to`10.3.3`, with their CPU architecture version I've got.
+Here is the list of symbols from `7.0`to`10.3.2`, with their CPU architecture version I've got.
 
 I will update the list if i get new symbol files.
 
