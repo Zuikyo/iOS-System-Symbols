@@ -43,7 +43,7 @@ Collected OS Version|Collected CPU Version|Description
 9.3.1 (13E238)|arm64,armv7s,armv7|
 9.3 (13E237)|armv7s,armv7|5s and older devices only, fix activation problem
 9.3 (13E236)|armv7|iPad2-only, fix activation problem
-**9.3 (13E234)**|**none**|6s, 6s Plus and iPad Pro 9.7-inch only
+9.3 (13E234)|arm64,armv7s|6s, 6s Plus and iPad Pro 9.7-inch only
 9.3 (13E233)|arm64,armv7s,armv7|
 9.2.1 (13D20)|arm64,armv7s|iPhone 6 and newer devices only
 9.2.1 (13D15)|arm64,armv7s,armv7|
@@ -61,12 +61,12 @@ Collected OS Version|Collected CPU Version|Description
 8.1.2 (12B440)|arm64,armv7s,armv7|
 8.1.1 (12B436)|arm64,armv7s|iPhone 6 and newer devices only
 8.1.1 (12B435)|arm64,armv7s,armv7|5s and older devices only
-8.1 (12B411)|arm64,armv7s,armv7|iPhone only
+8.1 (12B411)|armv7s,armv7|iPhone only
 8.1 (12B410)|arm64,armv7s,armv7|iPad only
 8.0.2 (12A405)|arm64,armv7s,armv7|
 8.0.1 (12A402)|armv7s,armv7|`8.0.1`was pulled back soon after released.Because it has serious bugs
 8.0 (12A366)|arm64,armv7s|6 Plus only
-8.0 (12A365)|arm64,armv7s,armv7|
+8.0 (12A365)|armv7s,armv7|
 7.1.2 (11D257)|armv7s,armv7|
 7.1.1 (11D201)|arm64,armv7s,armv7|
 7.1 (11D167)|arm64,armv7s,armv7|
@@ -88,8 +88,9 @@ Missing OS Version|Missing CPU Version|Description
 10.0 (14A346)|arm64|iPhone 7 and 7 Plus only, default OS when leave factory
 9.3.2 (13F72)|arm64|iPad Pro 9.7-inch only, fix bricked problem
 9.3 (13E237)|arm64|5s, iPad Air and iPad mini2 only, fix activation problem
-9.3 (13E234)|arm64|6s, 6s Plus and iPad Pro 9.7-inch only
+8.1 (12B411)|arm64|iPhone only
 8.0.1 (12A402)|arm64|`8.0.1`was pulled back soon after released. Because it has serious bugs. So we can ignore this version actually.
+8.0 (12A365)|arm64|
 7.1.2 (11D257)|arm64|
 7.0.2 (11A501)|arm64|
 7.0.1 (11A470a)|arm64|5s only
