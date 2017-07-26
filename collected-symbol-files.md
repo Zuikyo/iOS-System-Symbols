@@ -4,7 +4,9 @@ You can download the version you need here:
 
 [iOS system symbol files(7.0-9.2)](https://drive.google.com/drive/folders/0B-0LZDbSzubRaUdMdTJQc1ZzMUU?usp=sharing)
 
-[iOS system symbol files(9.2.1-10.3.2)](https://drive.google.com/drive/folders/0B5oBYvBG2NS7aDVTR1JzX2JXaFE?usp=sharing)
+[iOS system symbol files(9.2.1-10.3.1)](https://drive.google.com/drive/folders/0B5oBYvBG2NS7aDVTR1JzX2JXaFE?usp=sharing)
+
+[iOS system symbol files(10.3.2- ~)](https://drive.google.com/drive/folders/0B9ItUz-PHtRLb3hidV9kUGJUMkE?usp=sharing)
 
 If you're in China, check here:
 
@@ -38,7 +40,7 @@ Collected OS Version|Collected CPU Version|Description
 9.3.5 (13G36)|arm64,armv7s,armv7|
 9.3.4 (13G35)|arm64,armv7s,armv7|
 9.3.3 (13G34)|arm64,armv7s,armv7|
-**9.3.2 (13F72)**|**none**|iPad Pro 9.7-inch only, fix bricked problem
+9.3.2 (13F72)|arm64,armv7s|iPad Pro 9.7-inch only, fix bricked problem
 9.3.2 (13F69)|arm64,armv7s,armv7|
 9.3.1 (13E238)|arm64,armv7s,armv7|
 9.3 (13E237)|armv7s,armv7|5s and older devices only, fix activation problem
@@ -86,7 +88,6 @@ Missing OS Version|Missing CPU Version|Description
 10.3.2 (14F91)|arm64,armv7s|iPad mini4(Cellular) only
 10.3.2 (14F90)|arm64,armv7s|iPad 5 only
 10.0 (14A346)|arm64|iPhone 7 and 7 Plus only, default OS when leave factory
-9.3.2 (13F72)|arm64|iPad Pro 9.7-inch only, fix bricked problem
 9.3 (13E237)|arm64|5s, iPad Air and iPad mini2 only, fix activation problem
 8.1 (12B411)|arm64|iPhone only
 8.0.1 (12A402)|arm64|`8.0.1`was pulled back soon after released. Because it has serious bugs. So we can ignore this version actually.
