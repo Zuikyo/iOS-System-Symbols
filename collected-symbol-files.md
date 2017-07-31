@@ -6,7 +6,7 @@ You can download the version you need here:
 
 [iOS system symbol files(9.2.1-10.3.1)](https://drive.google.com/drive/folders/0B5oBYvBG2NS7aDVTR1JzX2JXaFE?usp=sharing)
 
-[iOS system symbol files(10.3.2- ~)](https://drive.google.com/drive/folders/0B9ItUz-PHtRLb3hidV9kUGJUMkE?usp=sharing)
+[iOS system symbol files(10.3.2-10.3.3)](https://drive.google.com/drive/folders/0B9ItUz-PHtRLb3hidV9kUGJUMkE?usp=sharing)
 
 If you're in China, check here:
 
@@ -24,6 +24,7 @@ I will update the list if i get new symbol files.
 
 Collected OS Version|Collected CPU Version|Description
 -------------------|------------------|---------------
+10.3.3 (14G60)|arm64,armv7s|
 10.3.2 (14F91)|arm64,armv7s|iPad mini4(Cellular) only
 10.3.2 (14F90)|arm64,armv7s|iPad 5 only
 10.3.2 (14F89)|arm64,armv7s|
