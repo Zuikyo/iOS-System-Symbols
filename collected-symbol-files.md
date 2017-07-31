@@ -24,6 +24,7 @@ I will update the list if i get new symbol files.
 
 Collected OS Version|Collected CPU Version|Description
 -------------------|------------------|---------------
+10.3.2 (14F91)|arm64,armv7s|iPad mini4(Cellular) only
 10.3.2 (14F90)|arm64,armv7s|iPad 5 only
 10.3.2 (14F89)|arm64,armv7s|
 10.3.1 (14E304)|arm64,armv7s|
@@ -86,7 +87,6 @@ If you want to share a missing symbols, just move the OS version and CPU version
 
 Missing OS Version|Missing CPU Version|Description
 ----------------|-------------------|----------------
-10.3.2 (14F91)|arm64,armv7s|iPad mini4(Cellular) only
 10.0 (14A346)|arm64|iPhone 7 and 7 Plus only, default OS when leave factory
 9.3 (13E237)|arm64|5s, iPad Air and iPad mini2 only, fix activation problem
 8.1 (12B411)|arm64|iPhone only
