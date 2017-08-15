@@ -66,7 +66,7 @@ Collected OS Version|Collected CPU Version|Description
 8.1.2 (12B440)|arm64,armv7s,armv7|
 8.1.1 (12B436)|arm64,armv7s|iPhone 6 and newer devices only
 8.1.1 (12B435)|arm64,armv7s,armv7|5s and older devices only
-8.1 (12B411)|armv7s,armv7|iPhone only
+8.1 (12B411)|arm64,armv7s,armv7|iPhone only
 8.1 (12B410)|arm64,armv7s,armv7|iPad only
 8.0.2 (12A405)|arm64,armv7s,armv7|
 8.0.1 (12A402)|armv7s,armv7|`8.0.1`was pulled back soon after released.Because it has serious bugs
@@ -90,7 +90,6 @@ Missing OS Version|Missing CPU Version|Description
 ----------------|-------------------|----------------
 10.0 (14A346)|arm64|iPhone 7 and 7 Plus only, default OS when leave factory
 9.3 (13E237)|arm64|5s, iPad Air and iPad mini2 only, fix activation problem
-8.1 (12B411)|arm64|iPhone only
 8.0.1 (12A402)|arm64|`8.0.1`was pulled back soon after released. Because it has serious bugs. So we can ignore this version actually.
 8.0 (12A365)|arm64|
 7.1.2 (11D257)|arm64|
