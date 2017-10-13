@@ -1,36 +1,37 @@
 ## Download
 
-You can download the version you need here:
+You can download the symbols you need here:
 
 [iOS system symbol files(7.0-9.2)](https://drive.google.com/drive/folders/0B-0LZDbSzubRaUdMdTJQc1ZzMUU?usp=sharing)
 
 [iOS system symbol files(9.2.1-10.3.1)](https://drive.google.com/drive/folders/0B5oBYvBG2NS7aDVTR1JzX2JXaFE?usp=sharing)
 
-[iOS system symbol files(10.3.2-11.0.2)](https://drive.google.com/drive/folders/0B9ItUz-PHtRLb3hidV9kUGJUMkE?usp=sharing)
+[iOS system symbol files(10.3.2-11.0.3)](https://drive.google.com/drive/folders/0B9ItUz-PHtRLb3hidV9kUGJUMkE?usp=sharing)
 
 If you're in China, check here:
 
 Baidu Netdisk: [https://pan.baidu.com/s/1mibhDyg](https://pan.baidu.com/s/1mibhDyg) sharing code: `md1s`
 
-I get those `dyld_shared_cache_xxxx` files in `Symbols/System/Library/Caches/com.apple.dyld` out to reduce the size of those symbol files. You don't need these big files for symbolicating. They're only used when debugging with a device. If you need them, download those `xxxx-Caches` files.
+I take those `dyld_shared_cache_xxxx` files in `Symbols/System/Library/Caches/com.apple.dyld` out to reduce the size of the symbol files. They're not necessary for symbolicating. They're only needed when debugging with a real device. If you need them, download those `xxxx-Caches` files.
 
 ## Symbols list
 
-There are 60 versions from `7.0 (11A465)` to `11.0.2 (15A421)`(if you count OS version with CPU architecture, it's 144).
+There are 61 versions from `7.0 (11A465)` to `11.0.3 (15A432)`(if you count OS version with CPU architecture, it's 145).
 
-Here is the list of symbols from `7.0`to`11.0.2`, with their CPU architecture version I've got.
+Here is the list of symbols from `7.0`to`11.0.3`, with their CPU architecture version I've got.
 
 I will update the list if i get new symbol files.
 
 Collected OS Version|Collected CPU Version|Description
 -------------------|------------------|---------------
+11.0.3 (15A432)|arm64|
 11.0.2 (15A421)|arm64|
 11.0.1 (15A403)|arm64|iPhone 8 and 8 Plus only
 11.0.1 (15A402)|arm64|
 11.0 (15A372)|arm64|
 10.3.3 (14G60)|arm64,armv7s|
 10.3.2 (14F91)|arm64,armv7s|iPad mini4(Cellular) only
-10.3.2 (14F90)|arm64,armv7s|iPad 5 only
+10.3.2 (14F90)|arm64,armv7s|iPad (5th gen) only
 10.3.2 (14F89)|arm64,armv7s|
 10.3.1 (14E304)|arm64,armv7s|
 10.3 (14E277)|arm64,armv7s|
@@ -107,4 +108,4 @@ CPU|Devices
 armv6|iPhone, iPhone2, iPhone3G, iPod Touch 1 and 2
 armv7|iPhone3GS, iPhone4, iPhone4S，iPad, iPad2, iPad3(The New iPad), iPad mini，iPod Touch 3G, iPod Touch4, iPod Touch5
 armv7s|iPhone5, iPhone5C, iPad4(iPad with Retina Display)
-arm64|iPhone5S, iPad Air, iPad mini2(iPad mini with Retina Display), iPhone6, iPhone6s, iPhone7, iPhone7s and any new device in the future
+arm64|iPhone5s, iPad Air, iPad mini2(iPad mini with Retina Display), iPhone6 (Plus), iPhone6s (Plus), iPhone7 (Plus), iPad (5th gen), iPhone 8 (Plus), iPhone X and any new device in the future

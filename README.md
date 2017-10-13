@@ -31,9 +31,9 @@ Thread 0 Crashed:
 14  libdyld.dylib                   0x000000018bc885b8 0x18bc84000 + 17848 (<redacted> + 4)
 ```
 
-The callstack doesn't catch your app's code, it only has code from system framework. So you need to symbolicate these system code.
+The callstack didn't catch your app's code, it only has code from system frameworks. So you need to symbolicate these system code.
 
-Here is the symbolicated report, those`<redacted>` were changed into specific method name:
+Here is the symbolicated report, those`<redacted>` were changed into specific method names:
 
 ```
 Thread 0 name:  Dispatch queue: com.apple.main-thread
@@ -81,7 +81,7 @@ That's the meaning of this repository, to share these system symbols.
 
 ## Missing symbols
 
-I still miss some CPU's symbols, if you have any of them, please share.
+I still miss some symbols, if you have any of them, please share.
 
 The missing list is in [collected-symbol-files.md](https://github.com/Zuikyo/iOS-System-Symbols/blob/master/collected-symbol-files.md)
 
