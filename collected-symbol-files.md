@@ -6,7 +6,7 @@ You can download the symbols you need here:
 
 [iOS system symbol files(9.2.1-10.3.1)](https://drive.google.com/drive/folders/0B5oBYvBG2NS7aDVTR1JzX2JXaFE?usp=sharing)
 
-[iOS system symbol files(10.3.2-11.0.3)](https://drive.google.com/drive/folders/0B9ItUz-PHtRLb3hidV9kUGJUMkE?usp=sharing)
+[iOS system symbol files(10.3.2-11.1.1)](https://drive.google.com/drive/folders/0B9ItUz-PHtRLb3hidV9kUGJUMkE?usp=sharing)
 
 If you're in China, check here:
 
@@ -16,14 +16,15 @@ I take those `dyld_shared_cache_xxxx` files in `Symbols/System/Library/Caches/co
 
 ## Symbols list
 
-There are 61 versions from `7.0 (11A465)` to `11.0.3 (15A432)`(if you count OS version with CPU architecture, it's 145).
+There are 64 versions from `7.0 (11A465)` to `11.1.1 (15B150)`(if you count OS version with CPU architecture, it's 148).
 
-Here is the list of symbols from `7.0`to`11.0.3`, with their CPU architecture version I've got.
+Here is the list of symbols from `7.0`to`11.1.1`, with their CPU architecture version I've got.
 
 I will update the list if i get new symbol files.
 
 Collected OS Version|Collected CPU Version|Description
 -------------------|------------------|---------------
+11.1.1 (15B150)|arm64|
 **11.1 (15B101)**|**none**|iPad Pro2 12.9-inch and iPad Pro 10.5-inch only
 11.1 (15B93)|arm64|
 11.0.3 (15A432)|arm64|
