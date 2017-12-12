@@ -16,14 +16,17 @@ I take those `dyld_shared_cache_xxxx` files in `Symbols/System/Library/Caches/co
 
 ## Symbols list
 
-There are 64 versions from `7.0 (11A465)` to `11.1.1 (15B150)`(if you count OS version with CPU architecture, it's 148).
+There are 67 versions from `7.0 (11A465)` to `11.2 (15C114)`(if you count OS version with CPU architecture, it's 151).
 
-Here is the list of symbols from `7.0`to`11.1.1`, with their CPU architecture version I've got.
+Here is the list of symbols from `7.0`to`11.2`, with their CPU architecture version I've got.
 
 I will update the list if i get new symbol files.
 
 Collected OS Version|Collected CPU Version|Description
 -------------------|------------------|---------------
+11.2 (15C114)|arm64|
+**11.2 (15C113)**|**none**|iPhone X only
+11.1.2 (15B202)|arm64|
 11.1.1 (15B150)|arm64|
 **11.1 (15B101)**|**none**|iPad Pro2 12.9-inch and iPad Pro 10.5-inch only
 11.1 (15B93)|arm64|
@@ -96,6 +99,7 @@ If you want to share a missing symbols, just move the OS version and CPU version
 
 Missing OS Version|Missing CPU Version|Description
 ----------------|-------------------|----------------
+11.2 (15C113)|arm64|iPhone X only
 11.1 (15B101)|arm64|iPad Pro2 12.9-inch and iPad Pro 10.5-inch only
 10.0 (14A346)|arm64|iPhone 7 and 7 Plus only, default OS when leave factory
 9.3 (13E237)|arm64|5s, iPad Air and iPad mini2 only, fix activation problem
