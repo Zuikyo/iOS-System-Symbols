@@ -1,9 +1,9 @@
 # iOS-System-Symbols
-Share iOS system symbol files copied from 'iOS DeviceSupport' folder. Useful for symbolicating iOS crash report.
+Share iOS system symbol files copied from `iOS DeviceSupport` folder. Useful for symbolicating iOS crash reports.
 
 The download address is in [collected-symbol-files.md](https://github.com/Zuikyo/iOS-System-Symbols/blob/master/collected-symbol-files.md).
 
-When I get new symbol file, i will add it into the google drive sharing folder, and update the [collected-symbol-files.md](https://github.com/Zuikyo/iOS-System-Symbols/blob/master/collected-symbol-files.md).You can follow this repository to get the latest update.
+When I get new symbol file, i will add it into the google drive sharing folder, and update the [collected-symbol-files.md](https://github.com/Zuikyo/iOS-System-Symbols/blob/master/collected-symbol-files.md). You can follow this repository to get the latest update.
 
 ## What's the use of system symbol files
 
@@ -81,7 +81,7 @@ That's the meaning of this repository, to share these system symbols.
 
 ## Missing symbols
 
-I still miss some symbols, if you have any of them, please share.
+There're some missing symbols, if you have any of them, please share.
 
 The missing list is in [collected-symbol-files.md](https://github.com/Zuikyo/iOS-System-Symbols/blob/master/collected-symbol-files.md)
 
