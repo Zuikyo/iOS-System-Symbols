@@ -24,6 +24,7 @@ The list will be updated when i get new symbol files.
 
 Collected OS Version|Collected CPU Version|Description
 -------------------|------------------|---------------
+11.2.2 (15C202)|arm64|
 11.2.1 (15C153)|arm64|
 11.2 (15C114)|arm64|
 **11.2 (15C113)**|**none**|iPhone X only
