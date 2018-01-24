@@ -6,7 +6,7 @@ You can download the symbols you need here:
 
 [iOS system symbol files(9.2.1-10.3.1)](https://drive.google.com/drive/folders/0B5oBYvBG2NS7aDVTR1JzX2JXaFE?usp=sharing)
 
-[iOS system symbol files(10.3.2-11.2.1)](https://drive.google.com/drive/folders/0B9ItUz-PHtRLb3hidV9kUGJUMkE?usp=sharing)
+[iOS system symbol files(10.3.2-11.2.5)](https://drive.google.com/drive/folders/0B9ItUz-PHtRLb3hidV9kUGJUMkE?usp=sharing)
 
 If you're in China, check here:
 
@@ -16,14 +16,15 @@ I take those `dyld_shared_cache_xxxx` files in `Symbols/System/Library/Caches/co
 
 ## Symbols list
 
-There are 68 versions from `7.0 (11A465)` to `11.2.1 (15C153)`(if you count OS version with CPU architecture, it's 152).
+There are 70 versions from `7.0 (11A465)` to `11.2.5 (15D60)`(if you count OS version with CPU architecture, it's 154).
 
-Here is the list of symbols from `7.0`to`11.2.1`, with their CPU architecture version I've got.
+Here is the list of symbols from `7.0`to`11.2.5`, with their CPU architecture version I've got.
 
 The list will be updated when i get new symbol files.
 
-Collected OS Version|Collected CPU Version|Description
+Collected OS Version|Collected Architecture|Description
 -------------------|------------------|---------------
+11.2.5 (15D60)|arm64|
 11.2.2 (15C202)|arm64|
 11.2.1 (15C153)|arm64|
 11.2 (15C114)|arm64|
@@ -97,9 +98,9 @@ Collected OS Version|Collected CPU Version|Description
 
 ## Missing Symbols
 
-If you want to share a missing symbols, just move the OS version and CPU version you added in this missing list to collected symbols list above, and append download address in `description` section.
+If you want to share a missing symbols, just move the OS version and CPU architecture you added in this missing list to collected symbols list above, and append download address in `description` section.
 
-Missing OS Version|Missing CPU Version|Description
+Missing OS Version|Missing Architecture|Description
 ----------------|-------------------|----------------
 11.2 (15C113)|arm64|iPhone X only
 11.1 (15B101)|arm64|iPad Pro2 12.9-inch and iPad Pro 10.5-inch only
@@ -113,7 +114,7 @@ Missing OS Version|Missing CPU Version|Description
 
 ## CPU Architecture with Devices
 
-CPU|Devices
+CPU Architecture|Devices
 ------|------
 armv6|iPhone, iPhone2, iPhone3G, iPod Touch 1 and 2
 armv7|iPhone3GS, iPhone4, iPhone4S，iPad, iPad2, iPad3(The New iPad), iPad mini，iPod Touch 3G, iPod Touch4, iPod Touch5
