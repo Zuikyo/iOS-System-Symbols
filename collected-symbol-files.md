@@ -32,7 +32,7 @@ Collected OS Version|Collected Architecture|Description
 **11.2 (15C113)**|**none**|iPhone X only
 11.1.2 (15B202)|arm64|
 11.1.1 (15B150)|arm64|
-**11.1 (15B101)**|**none**|iPad Pro2 12.9-inch and iPad Pro 10.5-inch only
+11.1 (15B101)|arm64|iPad Pro2 12.9-inch and iPad Pro 10.5-inch only
 11.1 (15B93)|arm64|
 11.0.3 (15A432)|arm64|
 11.0.2 (15A421)|arm64|
