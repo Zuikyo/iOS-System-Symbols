@@ -12,7 +12,7 @@ If you're in China, check here:
 
 Baidu Netdisk: [https://pan.baidu.com/s/1mibhDyg](https://pan.baidu.com/s/1mibhDyg) sharing code: `md1s`
 
-I take those `dyld_shared_cache_xxxx` files in `Symbols/System/Library/Caches/com.apple.dyld` out to reduce the size of the symbol files. They're not necessary for symbolicating. They're only needed when debugging with a real device. If you need them, download those `xxxx-Caches` files.
+I take those `dyld_shared_cache_xxxx` files in `Symbols/System/Library/Caches/com.apple.dyld` out to reduce the size of the symbol files. They're not necessary for symbolicating. They're only needed when debugging with a real device. If you need them, download those `xxxx-Caches` files. Only `dyld_shared_cache_xxxx` from real device were kept, those from firmware or from Xcode are not included.
 
 ## Symbols list
 
@@ -29,7 +29,7 @@ Collected OS Version|Collected Architecture|Description
 11.2.2 (15C202)|arm64|
 11.2.1 (15C153)|arm64|
 11.2 (15C114)|arm64|
-**11.2 (15C113)**|**none**|iPhone X only
+**11.2 (15C113)**|**none**|Apple release 15C113 after 15C114, then remove the download link of this firmware. It seems like a mistake. We can ignore this version
 11.1.2 (15B202)|arm64|
 11.1.1 (15B150)|arm64|
 11.1 (15B101)|arm64|iPad Pro2 12.9-inch and iPad Pro 10.5-inch only
@@ -61,7 +61,7 @@ Collected OS Version|Collected Architecture|Description
 9.3.2 (13F72)|arm64,armv7s|iPad Pro 9.7-inch only, fix bricked problem
 9.3.2 (13F69)|arm64,armv7s,armv7|
 9.3.1 (13E238)|arm64,armv7s,armv7|
-9.3 (13E237)|armv7s,armv7|5s and older devices only, fix activation problem
+9.3 (13E237)|arm64,armv7s,armv7|iPad Air, iPad mini, iPad mini 2, 5s and older devices only, fix activation problem
 9.3 (13E236)|armv7|iPad2-only, fix activation problem
 9.3 (13E234)|arm64,armv7s|6s, 6s Plus and iPad Pro 9.7-inch only
 9.3 (13E233)|arm64,armv7s,armv7|
@@ -84,17 +84,17 @@ Collected OS Version|Collected Architecture|Description
 8.1 (12B411)|arm64,armv7s,armv7|iPhone only
 8.1 (12B410)|arm64,armv7s,armv7|iPad only
 8.0.2 (12A405)|arm64,armv7s,armv7|
-8.0.1 (12A402)|armv7s,armv7|`8.0.1`was pulled back soon after released.Because it has serious bugs
+8.0.1 (12A402)|arm64,armv7s,armv7|`8.0.1`was pulled back soon after released.Because it has serious bugs
 8.0 (12A366)|arm64,armv7s|6 Plus only
-8.0 (12A365)|armv7s,armv7|
-7.1.2 (11D257)|armv7s,armv7|
+8.0 (12A365)|arm64,armv7s,armv7|
+7.1.2 (11D257)|arm64,armv7s,armv7|
 7.1.1 (11D201)|arm64,armv7s,armv7|
 7.1 (11D167)|arm64,armv7s,armv7|
 7.0.6 (11B651)|arm64,armv7s,armv7|
 7.0.4 (11B554a)|arm64,armv7s,armv7|
 7.0.3 (11B511)|arm64,armv7s,armv7|
-7.0.2 (11A501)|armv7s,armv7|
-7.0.1 (11A470a)|armv7s|5s and 5c only
+7.0.2 (11A501)|arm64,armv7s,armv7|
+7.0.1 (11A470a)|arm64,armv7s|5s and 5c only
 7.0 (11A465)|arm64,armv7s,armv7|
 
 ## Missing Symbols
@@ -103,15 +103,9 @@ If you want to share a missing symbols, just move the OS version and CPU archite
 
 Missing OS Version|Missing Architecture|Description
 ----------------|-------------------|----------------
-11.2 (15C113)|arm64|iPhone X only
-11.1 (15B101)|arm64|iPad Pro2 12.9-inch and iPad Pro 10.5-inch only
+11.2 (15C113)|arm64|Apple release 15C113 after 15C114, then remove the download link of this firmware. It seems like a mistake. We can ignore this version
 10.0 (14A346)|arm64|iPhone 7 and 7 Plus only, default OS when leave factory
-9.3 (13E237)|arm64|5s, iPad Air and iPad mini2 only, fix activation problem
-8.0.1 (12A402)|arm64|`8.0.1`was pulled back soon after released. Because it has serious bugs. So we can ignore this version actually.
-8.0 (12A365)|arm64|
-7.1.2 (11D257)|arm64|
-7.0.2 (11A501)|arm64|
-7.0.1 (11A470a)|arm64|5s only
+
 
 Some missing symbols are listed in [iOS Symbol Pool](https://ios.ddf.net), but I don't know how to use they in this website.
 

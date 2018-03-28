@@ -70,6 +70,8 @@ That means you need a corresponding device if you want to symbolicate a crash re
 
 That's the meaning of this repository, to share these system symbols.
 
+**update**: Since iOS 10, iOS firmware are not encrypted, so we can get symbols from firmware now.
+
 ## How to use
 
 1. When you need to symbolicate a crash report, check the `Code Type` and `OS Version` section. Such as:`Code Type:       ARM-64`
@@ -84,29 +86,6 @@ That's the meaning of this repository, to share these system symbols.
 There're some missing symbols, if you have any of them, please share.
 
 The missing list is in [collected-symbol-files.md](https://github.com/Zuikyo/iOS-System-Symbols/blob/master/collected-symbol-files.md)
-
-## How to share your symbol files
-
-### 1.Check which CPU version the symbol file contains
-
-If you already have a system symbol file, and want to know which CPU version it contains, check files in the path like`10.2 (14C92)/Symbols/System/Library/Caches/com.apple.dyld`. There should be files named`dyld_shared_cache_arm64`,`dyld_shared_cache_armv7s`,`dyld_shared_cache_armv7`.
-
-If you miss one, that means you don't have that CPU version's symbols.
-
-### 2.Merge the symbol files
-
-If you have a device in the missing list, you may need to merge it's symbol files before sharing.
-
-Xcode merges different CPU's symbol files to same folder. For example, if you already have a `arm64` version's symbol file in `iOS DeviceSupport` folder (such as `10.2 (14C82)`), when you connect a`armv7`device, Xcode will merge `armv7` version symbol files to `10.2 (14C82)` folder too.
-
-So you need to download other CPU version's symbol files in my sharing folder(if it exists), extract it to `~/Library/Developer/Xcode/iOS DeviceSupport`. Then connect your device, let Xcode merge those symbol files. 
-
-Then we get a file containing `arm64`,`armv7s`and`armv7`. If you don't merge them, we'll have to distinguish the corresponding CPU version's symbol file when 
-symbolicating.
-
-### 3.Upload and share
-
-Upload your files to your sharing drive, and commit the download address to [collected-symbol-files.md](https://github.com/Zuikyo/iOS-System-Symbols/blob/master/collected-symbol-files.md).
 
 ---
 
