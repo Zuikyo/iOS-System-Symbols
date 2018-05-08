@@ -6,7 +6,7 @@ You can download the symbols you need here:
 
 [iOS system symbol files(9.2.1-10.3.1)](https://drive.google.com/drive/folders/0B5oBYvBG2NS7aDVTR1JzX2JXaFE?usp=sharing)
 
-[iOS system symbol files(10.3.2-11.3)](https://drive.google.com/drive/folders/0B9ItUz-PHtRLb3hidV9kUGJUMkE?usp=sharing)
+[iOS system symbol files(10.3.2-11.3.1)](https://drive.google.com/drive/folders/0B9ItUz-PHtRLb3hidV9kUGJUMkE?usp=sharing)
 
 If you're in China, check here:
 
@@ -16,14 +16,15 @@ I take those `dyld_shared_cache_xxxx` files in `Symbols/System/Library/Caches/co
 
 ## Symbols list
 
-There are 73 versions from `7.0 (11A465)` to `11.3 (15E218)`(if you count OS version with CPU architecture, it's 157).
+There are 74 versions from `7.0 (11A465)` to `11.3.1 (15E302)`(if you count OS version with CPU architecture, it's 158).
 
-Here is the list of symbols from `7.0`to`11.3`, with their CPU architecture version I've got.
+Here is the list of symbols from `7.0`to`11.3.1`, with their CPU architecture version I've got.
 
 The list will be updated when i get new symbol files.
 
-Collected OS Version|Collected Architecture|Description
+OS Version|Collected Architecture|Description
 -------------------|------------------|---------------
+11.3.1 (15E302)|arm64|
 11.3 (15E218)|arm64|iPad 6 (Cellular) only
 11.3 (15E216)|arm64|
 11.2.6 (15D100)|arm64|
@@ -103,7 +104,7 @@ Collected OS Version|Collected Architecture|Description
 
 If you want to share a missing symbols, just move the OS version and CPU architecture you added in this missing list to collected symbols list above, and append download address in `description` section.
 
-Missing OS Version|Missing Architecture|Description
+OS Version|Missing Architecture|Description
 ----------------|-------------------|----------------
 11.2 (15C113)|arm64|Apple release 15C113 after 15C114, then remove the download link of this firmware. It seems like a mistake. We can ignore this version
 10.0 (14A346)|arm64|iPhone 7 and 7 Plus only, default OS when leave factory
@@ -111,9 +112,9 @@ Missing OS Version|Missing Architecture|Description
 
 Some missing symbols are listed in [iOS Symbol Pool](https://ios.ddf.net), but I don't know how to use they in this website.
 
-## CPU Architecture with Devices
+## Architecture of Device
 
-CPU Architecture|Devices
+Architecture|Devices
 ------|------
 armv6|iPhone, iPhone2, iPhone3G, iPod Touch 1 and 2
 armv7|iPhone3GS, iPhone4, iPhone4S，iPad, iPad2, iPad3(The New iPad), iPad mini，iPod Touch 3G, iPod Touch4, iPod Touch5
