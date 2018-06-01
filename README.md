@@ -81,14 +81,11 @@ That's the meaning of this repository, to share these system symbols.
 
 3. Use Xcode's`symbolicatecrash` tool to symbolicate your crash report. This tool will search system symbols in the`iOS DeviceSupport`path automatically. Read this to learn how to use`symbolicatecrash`: [Symbolicating an iOS Crash Report](https://www.apteligent.com/developer-resources/symbolicating-an-ios-crash-report/?partner_code=GDC_so_symbolicateios).
 
-## Missing symbols
 
-There're some missing symbols, if you have any of them, please share.
-
-The missing list is in [collected-symbol-files.md](https://github.com/Zuikyo/iOS-System-Symbols/blob/master/collected-symbol-files.md)
+## Thank you for reading. If this porject is helpful, please give me a star :)
 
 ---
 
-这个项目的目的是分享iOS系统库符号文件，对iOS crash日志分析有很大帮助。
+### My Other Framework
 
-具体内容，请看[iOS Crash分析必备：获取系统库符号文件](http://www.jianshu.com/p/f9eeeecff8d8)。
+I'd like to introduce [ZIKRouter](https://github.com/Zuikyo/ZIKRouter), a iOS dependency injection framework. ZIKRouter helps your app split into loosely-coupled components. you can see how to perfectly decouple your modules in the demo. You will love it :)
