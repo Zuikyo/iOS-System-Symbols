@@ -81,6 +81,21 @@ That's the meaning of this repository, to share these system symbols.
 
 3. Use Xcode's`symbolicatecrash` tool to symbolicate your crash report. This tool will search system symbols in the`iOS DeviceSupport`path automatically. Read this to learn how to use`symbolicatecrash`: [Symbolicating an iOS Crash Report](https://www.apteligent.com/developer-resources/symbolicating-an-ios-crash-report/?partner_code=GDC_so_symbolicateios).
 
+## Extract Symbols from Firmware
+
+We can almost get all systems' symbols from firmwares now. And after iOS 10, firmwares are not encrypted any more.
+
+How to extract symbols:
+
+1. Download the ipsw firmware (not OTA files), corresponding the system version you need
+2. Uncompress the firmware file as zip, find the biggest dmg file(it's the iOS system file image)
+3. If the version of the firmare system is higher than iOS 10, the dmg is not encrypted. So just double click to load the image, and go to step `6`
+4. If the version is lower than iOS 10, you have to decrypt the dmg file with corresponding firmware key. Find key in [Firmware_Keys](https://www.theiphonewiki.com/wiki/Firmware_Keys)(Under`Root Filesystem`section in the corresponding firmware page)
+5. Decrypt dmg file with its key. You can use the `dmg`tool in [tools](https://github.com/Zuikyo/iOS-System-Symbols/tree/master/tools):`./dmg extract encrypted.dmg decrypted.dmg -k <firmware_key>`. Then you get the `decrypted.dmg`, double click to load the image
+6. In the image folder, go to `System/Library/Caches/com.apple.dyld/`, you can get `dyld_shared_cache_arm64`, `dyld_shared_cache_armv7s`,`dyld_shared_cache_armv7`, they are the compressed system frameworks
+7. Uncompress `dyld_shared_cache_armxxx` with `dsc_extractor` tool in Apple's dyld project. I put it in [tools](https://github.com/Zuikyo/iOS-System-Symbols/tree/master/tools):`./dsc_extractor ./dyld_shared_cache_armxxx ./output`
+8. If you need all arm64, armv7s and armv7 of frameworks, you need to extract `dyld_shared_cache_arm64`, `dyld_shared_cache_armv7s`,`dyld_shared_cache_armv7`all. `dsc_extractor`will merge different architectures into same files when extracting to a same directory
+9. Then you get all system frameworks of this firmware in output folder. Put those files into a folder as a symbol file hierarchy, such as `12.0 (16A5288q)/Symbols/`, and you can use this folder to symbolicate crash report now
 
 ## Thank you for reading. If this porject is helpful, please give me a star :)
 
