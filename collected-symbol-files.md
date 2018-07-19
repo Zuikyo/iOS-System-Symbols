@@ -34,7 +34,7 @@ OS Version|Collected Architecture|Description
 11.2.2 (15C202)|arm64|
 11.2.1 (15C153)|arm64|
 11.2 (15C114)|arm64|
-**11.2 (15C113)**|**none**|Apple release 15C113 after 15C114, then remove the download link of this firmware. It seems like a mistake. We can ignore this version
+11.2 (15C113)|arm64|Apple release 15C113 after 15C114, then remove the download link of this firmware. It seems like a mistake. We can ignore this version
 11.1.2 (15B202)|arm64|
 11.1.1 (15B150)|arm64|
 11.1 (15B101)|arm64|iPad Pro2 12.9-inch and iPad Pro 10.5-inch only
@@ -108,7 +108,6 @@ If you want to share a missing symbols, just move the OS version and CPU archite
 
 OS Version|Missing Architecture|Description
 ----------------|-------------------|----------------
-11.2 (15C113)|arm64|Apple release 15C113 after 15C114, then remove the download link of this firmware. It seems like a mistake. We can ignore this version
 10.0 (14A346)|arm64|iPhone 7 and 7 Plus only, default OS when leave factory
 
 
