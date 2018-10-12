@@ -83,9 +83,11 @@ That's the meaning of this repository, to share these system symbols.
 
 ## Extract Symbols from Firmware
 
+If the symbols you need is not in the list, you can get from firmware by yourself.
+
 We can almost get all systems' symbols from firmwares now. And after iOS 10, firmwares are not encrypted any more. You can also get symbols of beta firmwares.
 
-How to extract symbols:
+How to extract symbols from firmware:
 
 1. Download the ipsw firmware (not OTA files), corresponding the system version you need
 2. Uncompress the firmware file as zip, find the biggest dmg file(it's the iOS system file image)
