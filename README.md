@@ -99,7 +99,7 @@ How to extract symbols from firmware:
 8. If you need all arm64, armv7s and armv7 of frameworks, you need to extract `dyld_shared_cache_arm64`, `dyld_shared_cache_armv7s`,`dyld_shared_cache_armv7`all. `dsc_extractor`will merge different architectures into same files when extracting to a same directory
 9. Then you get all system frameworks of this firmware in output folder. Put those files into a folder as a symbol file hierarchy, such as `12.0 (16A5288q)/Symbols/`, and you can use this folder to symbolicate crash report now
 
-## Thank you for reading. If this porject is helpful, please give me a star :)
+## Thank you for reading. If this project is helpful, please give me a star :)
 
 ---
 
