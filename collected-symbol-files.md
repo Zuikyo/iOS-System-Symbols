@@ -8,6 +8,8 @@ You can download the symbols you need here:
 
 [iOS system symbol files(10.3.2-12.1.2)](https://drive.google.com/drive/folders/0B9ItUz-PHtRLb3hidV9kUGJUMkE?usp=sharing)
 
+[iOS system symbol files(12.1.2-12.1.3)](https://drive.google.com/drive/folders/1beYMn69Y36zAlB2E1htmejYYYwpZclJ6?usp=sharing)
+
 If you're in China, check here:
 
 Baidu Netdisk: [https://pan.baidu.com/s/1mibhDyg](https://pan.baidu.com/s/1mibhDyg) sharing code: `md1s`
@@ -16,14 +18,17 @@ I take those `dyld_shared_cache_xxxx` files in `Symbols/System/Library/Caches/co
 
 ## Symbols list
 
-There are 83 version from `7.0 (11A465)` to `12.1.2 (16C101)`(if you count OS version with CPU architecture, it's 171).
+There are 86 version from `7.0 (11A465)` to `12.1.3 (16D40)`(if you count OS version with CPU architecture, it's 175).
 
-Here is the list of symbols from `7.0`to`12.1.2`, with their CPU architecture version I've got.
+Here is the list of symbols from `7.0`to`12.1.3`, with their CPU architecture version I've got.
 
 The list will be updated when i get new symbol files.
 
 OS Version|Collected Architecture|Description
 -------------------|------------------|---------------
+12.1.3 (16D40)|arm64e|iPhone XR / XS / XS Max / iPad Pro 3 only
+12.1.3 (16D39)|arm64|
+12.1.2 (16C104)|arm64,arm64e|
 12.1.2 (16C101)|arm64,arm64e|
 12.1.1 (16C50)|arm64,arm64e|
 12.1 (16B93)|arm64e|iPhone XR only
