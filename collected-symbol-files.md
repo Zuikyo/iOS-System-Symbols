@@ -133,3 +133,4 @@ armv6|iPhone, iPhone2, iPhone3G, iPod Touch 1 and 2
 armv7|iPhone3GS, iPhone4, iPhone4S，iPad, iPad2, iPad3(The New iPad), iPad mini，iPod Touch 3G, iPod Touch4, iPod Touch5
 armv7s|iPhone5, iPhone5C, iPad4(iPad with Retina Display)
 arm64|iPhone5s, iPad Air, iPad mini2(iPad mini with Retina Display), iPhone6 (Plus), iPhone6s (Plus), iPhone7 (Plus), iPad (5th gen), iPhone 8 (Plus), iPhone X and any new device in the future
+arm64e|Devices with A12 CPU, iPhone XR, iPhone XS, iPhone XS Max, iPad Pro 3
