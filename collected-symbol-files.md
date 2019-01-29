@@ -6,7 +6,7 @@ You can download the symbols you need here:
 
 [iOS system symbol files(9.2.1-10.3.1)](https://drive.google.com/drive/folders/0B5oBYvBG2NS7aDVTR1JzX2JXaFE?usp=sharing)
 
-[iOS system symbol files(10.3.2-12.1.2)](https://drive.google.com/drive/folders/0B9ItUz-PHtRLb3hidV9kUGJUMkE?usp=sharing)
+[iOS system symbol files(10.3.2-12.1.1)](https://drive.google.com/drive/folders/0B9ItUz-PHtRLb3hidV9kUGJUMkE?usp=sharing)
 
 [iOS system symbol files(12.1.2-12.1.3)](https://drive.google.com/drive/folders/1beYMn69Y36zAlB2E1htmejYYYwpZclJ6?usp=sharing)
 
@@ -31,6 +31,7 @@ OS Version|Collected Architecture|Description
 12.1.2 (16C104)|arm64,arm64e|
 12.1.2 (16C101)|arm64,arm64e|
 12.1.1 (16C50)|arm64,arm64e|
+12.1 (16B94)|arm64e|iPhone XR only
 12.1 (16B93)|arm64e|iPhone XR only
 12.1 (16B92)|arm64,arm64e|
 12.0.1 (16A405)|arm64e|iPhone XR / XS / XS Max only
@@ -57,6 +58,7 @@ OS Version|Collected Architecture|Description
 11.0.1 (15A402)|arm64|
 11.0 (15A372)|arm64|
 10.3.3 (14G60)|arm64,armv7s|
+10.3.2 (14F8089)|arm64,armv7s|iPad Pro only
 10.3.2 (14F91)|arm64,armv7s|iPad mini4(Cellular) only
 10.3.2 (14F90)|arm64,armv7s|iPad (5th gen) only
 10.3.2 (14F89)|arm64,armv7s|
@@ -71,7 +73,7 @@ OS Version|Collected Architecture|Description
 10.0.3 (14A551)|arm64,armv7s|
 10.0.2 (14A456)|arm64,armv7s|
 10.0.1 (14A403)|arm64,armv7s|
-**10.0 (14A346)**|**none**|iPhone 7 and 7 Plus only, default OS when leave factory
+**10.0 (14A346)**|**none**|iPhone 7 and 7 Plus only,  preinstalled OS
 9.3.5 (13G36)|arm64,armv7s,armv7|
 9.3.4 (13G35)|arm64,armv7s,armv7|
 9.3.3 (13G34)|arm64,armv7s,armv7|
@@ -87,8 +89,12 @@ OS Version|Collected Architecture|Description
 9.2 (13C75)|arm64,armv7s,armv7|
 9.1 (13B143)|arm64,armv7s,armv7|
 9.0.2 (13A452)|arm64,armv7s,armv7|
+9.0.1 (13A405)|arm64,armv7s|iPhone 6s and iPhone 6s Plus only
 9.0.1 (13A404)|arm64,armv7s,armv7|
 9.0 (13A344)|arm64,armv7s,armv7|
+**9.0 (13A343)|none|iPhone 6s Plus only**
+9.0 (13A342)|arm64,armv7s|iPhone 6s only
+9.0 (13A340)|arm64,armv7s|
 8.4.1 (12H321)|arm64,armv7s,armv7|
 8.4 (12H143)|arm64,armv7s,armv7|
 8.3 (12F70)|arm64,armv7s,armv7|iPhone only
@@ -106,9 +112,12 @@ OS Version|Collected Architecture|Description
 8.0 (12A365)|arm64,armv7s,armv7|
 7.1.2 (11D257)|arm64,armv7s,armv7|
 7.1.1 (11D201)|arm64,armv7s,armv7|
+7.1 (11D169)|armv7|iPhone4 only
 7.1 (11D167)|arm64,armv7s,armv7|
 7.0.6 (11B651)|arm64,armv7s,armv7|
+7.0.5 (11B601)|arm64,armv7s|iPhone5c, iPhone5s only
 7.0.4 (11B554a)|arm64,armv7s,armv7|
+7.0.4 (11B553)|arm64,armv7s,armv7|
 7.0.3 (11B511)|arm64,armv7s,armv7|
 7.0.2 (11A501)|arm64,armv7s,armv7|
 7.0.1 (11A470a)|arm64,armv7s|5s and 5c only
