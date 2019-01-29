@@ -92,7 +92,7 @@ OS Version|Collected Architecture|Description
 9.0.1 (13A405)|arm64,armv7s|iPhone 6s and iPhone 6s Plus only
 9.0.1 (13A404)|arm64,armv7s,armv7|
 9.0 (13A344)|arm64,armv7s,armv7|
-**9.0 (13A343)|none|iPhone 6s Plus only**
+**9.0 (13A343)**|**none**|iPhone 6s Plus only
 9.0 (13A342)|arm64,armv7s|iPhone 6s only
 9.0 (13A340)|arm64,armv7s|
 8.4.1 (12H321)|arm64,armv7s,armv7|
