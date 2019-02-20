@@ -26,6 +26,7 @@ The list will be updated when i get new symbol files.
 
 OS Version|Collected Architecture|Description
 -------------------|------------------|---------------
+12.1.4 (16D57)|arm64,arm64e|
 12.1.3 (16D40)|arm64e|iPhone XR / XS / XS Max / iPad Pro 3 only
 12.1.3 (16D39)|arm64|
 12.1.2 (16C104)|arm64,arm64e|
