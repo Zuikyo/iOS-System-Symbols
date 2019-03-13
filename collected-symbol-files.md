@@ -8,7 +8,7 @@ You can download the symbols you need here:
 
 [iOS system symbol files(10.3.2-12.1.1)](https://drive.google.com/drive/folders/0B9ItUz-PHtRLb3hidV9kUGJUMkE?usp=sharing)
 
-[iOS system symbol files(12.1.2-12.1.3)](https://drive.google.com/drive/folders/1beYMn69Y36zAlB2E1htmejYYYwpZclJ6?usp=sharing)
+[iOS system symbol files(12.1.2-12.1.4)](https://drive.google.com/drive/folders/1beYMn69Y36zAlB2E1htmejYYYwpZclJ6?usp=sharing)
 
 If you're in China, check here:
 
@@ -18,9 +18,9 @@ I take those `dyld_shared_cache_xxxx` files in `Symbols/System/Library/Caches/co
 
 ## Symbols list
 
-There are 86 version from `7.0 (11A465)` to `12.1.3 (16D40)`(if you count OS version with CPU architecture, it's 175).
+There are 97 version from `7.0 (11A465)` to `12.1.4 (16D57)`(if you count OS version with CPU architecture, it's 199).
 
-Here is the list of symbols from `7.0`to`12.1.3`, with their CPU architecture version I've got.
+Here is the list of symbols from `7.0`to`12.1.4`, with their CPU architecture version I've got.
 
 The list will be updated when i get new symbol files.
 
@@ -131,7 +131,7 @@ If you want to share a missing symbols, just move the OS version and CPU archite
 OS Version|Missing Architecture|Description
 ----------------|-------------------|----------------
 10.0 (14A346)|arm64|iPhone 7 and 7 Plus only, default OS when leave factory
-
+9.0 (13A343)|arm64|iPhone 6s Plus only
 
 Some missing symbols are listed in [iOS Symbol Pool](https://ios.ddf.net), but I don't know how to use they in this website.
 
