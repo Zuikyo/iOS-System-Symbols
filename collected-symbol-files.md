@@ -18,14 +18,15 @@ I take those `dyld_shared_cache_xxxx` files in `Symbols/System/Library/Caches/co
 
 ## Symbols list
 
-There are 99 version from `7.0 (11A465)` to `12.3 (16F156)`(if you count OS version with CPU architecture, it's 203).
+There are 100 version from `7.0 (11A465)` to `12.3.1 (16F203)`(if you count OS version with CPU architecture, it's 205).
 
-Here is the list of symbols from `7.0`to`12.3`, with their CPU architecture version I've got.
+Here is the list of symbols from `7.0`to`12.3.1`, with their CPU architecture version I've got.
 
 The list will be updated when i get new symbol files.
 
 OS Version|Collected Architecture|Description
 -------------------|------------------|---------------
+12.3.1 (16F203)|arm64,arm64e|
 12.3 (16F156)|arm64,arm64e|
 12.2 (16E227)|arm64,arm64e|
 12.1.4 (16D57)|arm64,arm64e|
