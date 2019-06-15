@@ -105,4 +105,4 @@ How to extract symbols from firmware:
 
 ### My Other Framework
 
-I'd like to introduce [ZIKRouter](https://github.com/Zuikyo/ZIKRouter), a iOS dependency injection framework. ZIKRouter helps your app split into loosely-coupled components. you can see how to perfectly decouple your modules in the demo. You will love it :)
+I'd like to introduce [ZIKRouter](https://github.com/Zuikyo/ZIKRouter), a iOS dependency injection framework. ZIKRouter helps your app split into loosely-coupled components. you can see how to perfectly decouple your modules in the demo.
