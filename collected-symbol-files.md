@@ -8,7 +8,7 @@ You can download the symbols you need here:
 
 [iOS system symbol files(10.3.2-12.1.1)](https://drive.google.com/drive/folders/0B9ItUz-PHtRLb3hidV9kUGJUMkE?usp=sharing)
 
-[iOS system symbol files(12.1.2-12.3.2)](https://drive.google.com/drive/folders/1beYMn69Y36zAlB2E1htmejYYYwpZclJ6?usp=sharing)
+[iOS system symbol files(12.1.2-12.4)](https://drive.google.com/drive/folders/1beYMn69Y36zAlB2E1htmejYYYwpZclJ6?usp=sharing)
 
 If you're in China, check here:
 
@@ -18,14 +18,15 @@ I take those `dyld_shared_cache_xxxx` files in `Symbols/System/Library/Caches/co
 
 ## Symbols list
 
-There are 101 version from `7.0 (11A465)` to `12.3.2 (16F250)`(if you count OS version with CPU architecture, it's 206).
+There are 103 version from `7.0 (11A465)` to `12.4 (16G77)`(if you count OS version with CPU architecture, it's 209).
 
-Here is the list of symbols from `7.0`to`12.3.2`, with their CPU architecture version I've got.
+Here is the list of symbols from `7.0`to`12.4`, with their CPU architecture version I've got.
 
 The list will be updated when i get new symbol files.
 
 OS Version|Collected Architecture|Description
 -------------------|------------------|---------------
+12.4 (16G77)|arm64,arm64e|
 12.3.2 (16F250)|arm64|iPhone 8 Plus only
 12.3.1 (16F203)|arm64,arm64e|
 12.3 (16F156)|arm64,arm64e|
@@ -79,6 +80,7 @@ OS Version|Collected Architecture|Description
 10.0.2 (14A456)|arm64,armv7s|
 10.0.1 (14A403)|arm64,armv7s|
 **10.0 (14A346)**|**none**|iPhone 7 and 7 Plus only,  preinstalled OS
+9.3.6 (13G37)|armv7|iPad mini, iPad 2, iPad 3, iPhone4, iPhone4s only
 9.3.5 (13G36)|arm64,armv7s,armv7|
 9.3.4 (13G35)|arm64,armv7s,armv7|
 9.3.3 (13G34)|arm64,armv7s,armv7|
@@ -134,7 +136,7 @@ If you want to share a missing symbols, just move the OS version and CPU archite
 
 OS Version|Missing Architecture|Description
 ----------------|-------------------|----------------
-10.0 (14A346)|arm64|iPhone 7 and 7 Plus only, default OS when leave factory
+10.0 (14A346)|arm64|iPhone 7 and 7 Plus only, preinstalled OS
 9.0 (13A343)|arm64|iPhone 6s Plus only
 
 Some missing symbols are listed in [iOS Symbol Pool](https://ios.ddf.net), but I don't know how to use they in this website.
@@ -146,5 +148,5 @@ Architecture|Devices
 armv6|iPhone, iPhone2, iPhone3G, iPod Touch 1 and 2
 armv7|iPhone3GS, iPhone4, iPhone4S，iPad, iPad2, iPad3(The New iPad), iPad mini，iPod Touch 3G, iPod Touch4, iPod Touch5
 armv7s|iPhone5, iPhone5C, iPad4(iPad with Retina Display)
-arm64|iPhone5s, iPad Air, iPad mini2(iPad mini with Retina Display), iPhone6 (Plus), iPhone6s (Plus), iPhone7 (Plus), iPad (5th gen), iPhone 8 (Plus), iPhone X and any new device in the future
-arm64e|Devices with A12 CPU, iPhone XR, iPhone XS, iPhone XS Max, iPad Pro 3
+arm64|iPhone5s, iPad Air, iPad mini2(iPad mini with Retina Display), iPhone6 (Plus), iPhone6s (Plus), iPhone7 (Plus), iPad (5th gen), iPhone 8 (Plus), iPhone X
+arm64e|Devices with A12 CPU, iPhone XR, iPhone XS, iPhone XS Max, iPad Pro 3 and any new device in the future
