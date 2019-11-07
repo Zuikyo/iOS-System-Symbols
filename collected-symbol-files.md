@@ -18,16 +18,23 @@ I take those `dyld_shared_cache_xxxx` files in `Symbols/System/Library/Caches/co
 
 ## Symbols list
 
-There are 106 version from `7.0 (11A465)` to `13.1 (17A844)`(if you count OS version with CPU architecture, it's 215).
+There are 113 version from `7.0 (11A465)` to `13.2 (17B84)`(if you count OS version with CPU architecture, it's 227).
 
-Here is the list of symbols from `7.0`to`13.1`, with their CPU architecture version I've got.
+Here is the list of symbols from `7.0`to`13.2`, with their CPU architecture version I've got.
 
 The list will be updated when i get new symbol files.
 
 OS Version|Collected Architecture|Description
 -------------------|------------------|---------------
+13.2 (17B84)|arm64,arm64e|
+13.1.3 (17A878)|arm64,arm64e|
+13.1.2 (17A861)|arm64,arm64e|
+13.1.2 (17A860)|arm64,arm64e|
+13.1.1 (17A854)|arm64,arm64e|
 13.1 (17A844)|arm64,arm64e|
 13.0 (17A577)|arm64,arm64e|
+12.4.3 (16G130) |arm64|
+12.4.2 (16G102)|arm64|
 12.4.1 (16G102)|arm64,arm64e|
 12.4 (16G77)|arm64,arm64e|
 12.3.2 (16F250)|arm64|iPhone 8 Plus only
