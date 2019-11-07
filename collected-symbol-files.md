@@ -8,7 +8,7 @@ You can download the symbols you need here:
 
 [iOS system symbol files(10.3.2-12.1.1)](https://drive.google.com/drive/folders/0B9ItUz-PHtRLb3hidV9kUGJUMkE?usp=sharing)
 
-[iOS system symbol files(12.1.2-13.1)](https://drive.google.com/drive/folders/1beYMn69Y36zAlB2E1htmejYYYwpZclJ6?usp=sharing)
+[iOS system symbol files(12.1.2-13.2)](https://drive.google.com/drive/folders/1beYMn69Y36zAlB2E1htmejYYYwpZclJ6?usp=sharing)
 
 If you're in China, check here:
 
@@ -75,8 +75,8 @@ OS Version|Collected Architecture|Description
 11.0 (15A372)|arm64|
 10.3.3 (14G60)|arm64,armv7s|
 10.3.2 (14F8089)|arm64,armv7s|iPad Pro only
-10.3.2 (14F91)|arm64,armv7s|iPad mini4(Cellular) only
-10.3.2 (14F90)|arm64,armv7s|iPad (5th gen) only
+10.3.2 (14F91)|arm64,armv7s|iPad mini 4 (Cellular) only
+10.3.2 (14F90)|arm64,armv7s|iPad 5 only
 10.3.2 (14F89)|arm64,armv7s|
 10.3.1 (14E304)|arm64,armv7s|
 10.3 (14E277)|arm64,armv7s|
@@ -90,7 +90,7 @@ OS Version|Collected Architecture|Description
 10.0.2 (14A456)|arm64,armv7s|
 10.0.1 (14A403)|arm64,armv7s|
 **10.0 (14A346)**|**none**|iPhone 7 and 7 Plus only,  preinstalled OS
-9.3.6 (13G37)|armv7|iPad mini, iPad 2, iPad 3, iPhone4, iPhone4s only
+9.3.6 (13G37)|armv7|iPad mini, iPad 2, iPad 3, iPhone 4, iPhone 4s only
 9.3.5 (13G36)|arm64,armv7s,armv7|
 9.3.4 (13G35)|arm64,armv7s,armv7|
 9.3.3 (13G34)|arm64,armv7s,armv7|
@@ -98,7 +98,7 @@ OS Version|Collected Architecture|Description
 9.3.2 (13F69)|arm64,armv7s,armv7|
 9.3.1 (13E238)|arm64,armv7s,armv7|
 9.3 (13E237)|arm64,armv7s,armv7|iPad Air, iPad mini, iPad mini 2, 5s and older devices only, fix activation problem
-9.3 (13E236)|armv7|iPad2-only, fix activation problem
+9.3 (13E236)|armv7|iPad2 only, fix activation problem
 9.3 (13E234)|arm64,armv7s|6s, 6s Plus and iPad Pro 9.7-inch only
 9.3 (13E233)|arm64,armv7s,armv7|
 9.2.1 (13D20)|arm64,armv7s|iPhone 6 and newer devices only
@@ -124,15 +124,15 @@ OS Version|Collected Architecture|Description
 8.1 (12B411)|arm64,armv7s,armv7|iPhone only
 8.1 (12B410)|arm64,armv7s,armv7|iPad only
 8.0.2 (12A405)|arm64,armv7s,armv7|
-8.0.1 (12A402)|arm64,armv7s,armv7|`8.0.1`was pulled back soon after released.Because it has serious bugs
+8.0.1 (12A402)|arm64,armv7s,armv7|`8.0.1`was pulled back soon after released. Because it has serious bugs
 8.0 (12A366)|arm64,armv7s|6 Plus only
 8.0 (12A365)|arm64,armv7s,armv7|
 7.1.2 (11D257)|arm64,armv7s,armv7|
 7.1.1 (11D201)|arm64,armv7s,armv7|
-7.1 (11D169)|armv7|iPhone4 only
+7.1 (11D169)|armv7|iPhone 4 only
 7.1 (11D167)|arm64,armv7s,armv7|
 7.0.6 (11B651)|arm64,armv7s,armv7|
-7.0.5 (11B601)|arm64,armv7s|iPhone5c, iPhone5s only
+7.0.5 (11B601)|arm64,armv7s|iPhone 5c, iPhone 5s only
 7.0.4 (11B554a)|arm64,armv7s,armv7|
 7.0.4 (11B553)|arm64,armv7s,armv7|
 7.0.3 (11B511)|arm64,armv7s,armv7|
@@ -149,14 +149,14 @@ OS Version|Missing Architecture|Description
 10.0 (14A346)|arm64|iPhone 7 and 7 Plus only, preinstalled OS
 9.0 (13A343)|arm64|iPhone 6s Plus only
 
-Some missing symbols are listed in [iOS Symbol Pool](https://ios.ddf.net), but I don't know how to use they in this website.
+Some missing symbols are listed in [iOS Symbol Pool](https://ios.ddf.net), but I don't know how to use them in this website.
 
 ## Architecture of Device
 
 Architecture|Devices
 ------|------
-armv6|iPhone, iPhone2, iPhone3G, iPod Touch 1 and 2
-armv7|iPhone3GS, iPhone4, iPhone4S，iPad, iPad2, iPad3(The New iPad), iPad mini，iPod Touch 3G, iPod Touch4, iPod Touch5
-armv7s|iPhone5, iPhone5C, iPad4(iPad with Retina Display)
-arm64|iPhone5s, iPad Air, iPad mini2(iPad mini with Retina Display), iPhone6 (Plus), iPhone6s (Plus), iPhone7 (Plus), iPad (5th gen), iPhone 8 (Plus), iPhone X
-arm64e|Devices with A12 CPU, iPhone XR, iPhone XS, iPhone XS Max, iPad Pro 3 and any new device in the future
+armv6|iPhone, iPhone 2, iPhone 3G, iPod Touch 1, iPod Touch 2
+armv7|iPhone 3GS, iPhone 4, iPhone 4S, iPad, iPad 2, iPad 3, iPad mini, iPod Touch 3G, iPod Touch 4, iPod Touch 5
+armv7s|iPhone 5, iPhone 5C, iPad 4
+arm64|iPhone 5s, iPhone 6 (Plus), iPhone 6s (Plus), iPhone 7 (Plus), iPhone 8 (Plus), iPad Air, iPad Air 2, iPad mini 2, iPad mini 3, iPad mini 4, iPad Pro, iPad Pro 2, iPad 5, iPhone X
+arm64e|Devices with A12 CPU: iPhone XR, iPhone XS, iPhone XS Max, iPad Pro 3 and any new device in the future
