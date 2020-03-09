@@ -8,7 +8,7 @@ You can download the symbols you need here:
 
 [iOS system symbol files(10.3.2-12.1.1)](https://drive.google.com/drive/folders/0B9ItUz-PHtRLb3hidV9kUGJUMkE?usp=sharing)
 
-[iOS system symbol files(12.1.2-13.2)](https://drive.google.com/drive/folders/1beYMn69Y36zAlB2E1htmejYYYwpZclJ6?usp=sharing)
+[iOS system symbol files(12.1.2-13.3.1)](https://drive.google.com/drive/folders/1beYMn69Y36zAlB2E1htmejYYYwpZclJ6?usp=sharing)
 
 If you're in China, check here:
 
@@ -18,14 +18,18 @@ I take those `dyld_shared_cache_xxxx` files in `Symbols/System/Library/Caches/co
 
 ## Symbols list
 
-There are 113 version from `7.0 (11A465)` to `13.2 (17B84)`(if you count OS version with CPU architecture, it's 227).
+There are 119 version from `7.0 (11A465)` to `13.3.1 (17D50)`(if you count OS version with CPU architecture, it's 237).
 
-Here is the list of symbols from `7.0`to`13.2`, with their CPU architecture version I've got.
+Here is the list of symbols from `7.0`to`13.3.1`, with their CPU architecture version I've got.
 
 The list will be updated when i get new symbol files.
 
 OS Version|Collected Architecture|Description
 -------------------|------------------|---------------
+13.3.1 (17D50)|arm64,arm64e|
+13.3 (17C54)|arm64,arm64e|
+13.2.3 (17B111)|arm64,arm64e|
+13.2.2 (17B102)|arm64,arm64e|
 13.2 (17B84)|arm64,arm64e|
 13.1.3 (17A878)|arm64,arm64e|
 13.1.2 (17A861)|arm64,arm64e|
@@ -33,6 +37,8 @@ OS Version|Collected Architecture|Description
 13.1.1 (17A854)|arm64,arm64e|
 13.1 (17A844)|arm64,arm64e|
 13.0 (17A577)|arm64,arm64e|
+12.4.5 (16G161)|arm64|
+12.4.4 (16G140)|arm64|
 12.4.3 (16G130) |arm64|
 12.4.2 (16G102)|arm64|
 12.4.1 (16G102)|arm64,arm64e|
