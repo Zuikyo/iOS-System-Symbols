@@ -1,5 +1,7 @@
 ## Download
 
+Since iOS 10, the system firmware is not encrypted, so you can just get those symbols by yourself. And I will not update the list any more. See [Extract Symbols from Firmware](./README.md#extract-symbols-from-firmware).
+
 You can download the symbols you need here:
 
 [iOS system symbol files(7.0-9.2)](https://drive.google.com/drive/folders/0B-0LZDbSzubRaUdMdTJQc1ZzMUU?usp=sharing)
@@ -12,7 +14,7 @@ You can download the symbols you need here:
 
 If you're in China, check here:
 
-Baidu Netdisk: [https://pan.baidu.com/s/1mibhDyg](https://pan.baidu.com/s/1mibhDyg) sharing code: `md1s`
+Baidu Netdisk: [https://pan.baidu.com/s/1dknV17E80JZeMK8e8SY8Fw?pwd=r78c](https://pan.baidu.com/s/1dknV17E80JZeMK8e8SY8Fw?pwd=r78c) sharing code: `r78c`
 
 I take those `dyld_shared_cache_xxxx` files in `Symbols/System/Library/Caches/com.apple.dyld` out to reduce the size of the symbol files. They're not necessary for symbolicating. They're only needed when debugging with a real device. If you need them, download those `xxxx-Caches` files. Only `dyld_shared_cache_xxxx` from real device were kept, those from firmware or from Xcode are not included.
 
